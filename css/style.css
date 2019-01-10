@@ -1,0 +1,18 @@
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+.cap {
+	text-transform: capitalize;
+}
+
+.uper {
+	text-transform: uppercase;
+}
+
+::placeholder {
+    color: #d1d1d1;
+}

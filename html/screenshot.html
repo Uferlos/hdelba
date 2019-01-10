@@ -1,0 +1,31 @@
+<style type="text/css">
+	#canvas{
+		display: none;
+	}
+</style>
+<div id="modal1" class="modal">
+	<div class="modal-content">
+		<div id="camera">
+			<video id="video" width="500" autoplay></video>
+			<button id="take">Capture</button>
+		</div>
+
+		<div class="output">
+		  <img id="id_ced">
+		</div>
+
+		<canvas id="canvas"></canvas>
+		
+		<div class="modal-footer">
+      <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
+    </div>
+  </div>
+</div>
+
+<script src="../js/camera.js"></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+		$('.modal').modal();
+		$('.modal').modal('open');
+	})
+</script>
